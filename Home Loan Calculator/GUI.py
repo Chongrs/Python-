@@ -1,7 +1,3 @@
-# Project Sistem Home Loan Calculator
-# Nama : CHONG RONG SHENG
-# Tingkatan : 3 RED
-
 import tkinter as tk
 from tkinter import*
 from tkinter.ttk import*
@@ -14,7 +10,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 window = Tk()
 window.title("HOME LOAN CALCULATOR")
 window.geometry('750x535')
-bg = PhotoImage(file=('bg.png'))
+bg = PhotoImage(file=('Home Loan Calculator/bg.png'))
 c_bg = Label(image=bg)
 c_bg.place(x=0, y=0)
 window.resizable(0,0)
@@ -254,7 +250,7 @@ def window_3():
     button_5.place(x=320,y=360)
     
     
-b1_image = PhotoImage(file=('r_button.png'))    
+b1_image = PhotoImage(file=('Home Loan Calculator/r_button.png'))    
 button_1 = Button(window,image=b1_image,command=window_2)
 button_1.place(x=600,y=400)
 
